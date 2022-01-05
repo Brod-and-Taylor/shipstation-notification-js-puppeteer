@@ -1,0 +1,15 @@
+{
+  "name": "shipstation-notification-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Warren Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "puppeteer": "^13.0.1"
+  }
+}
