@@ -17,7 +17,10 @@ var notificationID = null;
 var notification = null;
 
 browser = puppeteer
-	.launch({ headless: true })
+	.launch({
+		headless: true,
+		args: ['--no-sandbox']
+	 })
 
 	.then(async (browser) => {
 		page = await browser.newPage();
